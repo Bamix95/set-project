@@ -1,0 +1,32 @@
+.thirdContainer {
+  padding-inline: 20px;
+  padding-block: 30px;
+}
+.thirdheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerCard {
+  display: flex;
+  align-items: center;
+  background-color: rgba(54, 159, 255, 0.1);
+  padding: 10px;
+  border-radius: 16px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.text span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #303030;
+}
+.text small {
+  font-size: 12px;
+  font-weight: 500;
+  color: #369fff;
+}

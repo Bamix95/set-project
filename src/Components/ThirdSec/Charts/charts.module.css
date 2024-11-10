@@ -1,0 +1,32 @@
+.chartActivity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.chartActivity p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #303030;
+}
+.chartTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.chartTime span {
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: 500;
+  cursor: pointer;
+}
+.chartTime span:hover {
+  text-decoration: underline;
+  color: #369fff;
+}
+.bar {
+  height: 315px;
+  width: 390px;
+}

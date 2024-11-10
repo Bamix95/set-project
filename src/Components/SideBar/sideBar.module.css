@@ -1,0 +1,113 @@
+.sideBarContainer {
+  display: flex;
+  padding-inline: 30px;
+  border-right: 1px solid #f0f0f0;
+  position: relative;
+  padding-block: 30px;
+}
+.bordereffect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+.bordereffect:hover {
+  background-color: #369fff;
+}
+.sideBarContainer:hover border-right {
+  border-right: 2px solid #369fff;
+}
+.sideBarWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sideBarLogo {
+  margin-bottom: 120px;
+}
+.sideBarNavWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 90px;
+}
+.sideBarNav {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #bdbdbd;
+}
+.sideBarNav div {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 14px;
+  position: relative;
+  padding-right: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.sideBarNav div:hover {
+  color: #369fff;
+}
+.sideBarNav div::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 58%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #369fff;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.sideBarNav div:hover::before {
+  opacity: 1;
+}
+
+.sideBarNav.activeLink {
+  color: #369fff;
+}
+.sideBarNav.activeLink div::before {
+  background-color: #369fff;
+  opacity: 1;
+}
+
+.upGrade {
+  background: rgba(54, 159, 255, 0.1);
+  border-radius: 18px;
+  width: 168px;
+  padding: 10px 20px;
+  margin-top: 65px;
+}
+.upGrade p {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  opacity: 100%;
+  margin-bottom: 20px;
+}
+.goPro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goPro small {
+  font-size: 12px;
+  color: #369fff;
+}
+.goPro small span {
+  font-weight: 800;
+}
+.goProChevron {
+  border: 1px solid #369fff;
+  border-radius: 12px;
+  padding: 10px;
+  cursor: pointer;
+}

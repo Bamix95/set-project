@@ -1,0 +1,19 @@
+.circularprogress-bar {
+  transform: rotate(-90deg); /* Rotate to start progress from the top */
+}
+
+.circularbackground {
+  stroke-width: 4;
+}
+
+.circularprogress {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+
+.progresstext {
+  fill: #fff;
+  font-size: 0.8em; /* Adjust the font size to fit in the 52px circle */
+  font-weight: bold;
+}
